@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="zyqNRmuVrzL3A_bEurqmI93AiIJZiv6rO65n4lAdGRw" />
+    <title>Personal Portfolio Website</title>
+
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+
+    <!-- header design -->
+
+    <header class="header">
+      <a href="#" class="logo"><span>A</span>thul.</a>
+
+      <i class='bx bx-menu' id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="menu-bar">
+        <div class="container menubar-container">
+          <a href="#home"><i class='bx bxs-home'></i></a>
+          <a href="#about"><i class='bx bxs-user-detail'></i></a>
+          <a href="#services"><i class='bx bxs-briefcase'></i></a>
+          <a href="#portfolio"><i class='bx bxs-collection'></i></a>
+          <a href="#contact"><i class='bx bxs-contact'></i></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- home section design -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Athul Thomas P</h1>
+        <h3>And I'm a  <span class="multiple-text"></span></h3>
+        <p>Exceptionally creative and dependable Entry Level Web Developer with a stellar customer service record and superb work ethic.
+           I have worked as an Accountant, Data Annotator, Purchase Manager. But I am now mostly focused on Frontend Development...</p>
+      <div class="social-media">
+        <a href="https://github.com/athulthomas4"><i class='bx bxl-github'></i></a>
+        <a href="https://www.linkedin.com/in/athul-thomas-p/"><i class='bx bxl-linkedin' ></i></a>
+        <a href="https://instagram.com/s__h__a_d__o__w?igshid=MzMyNGUyNmU2YQ=="><i class='bx bxl-instagram-alt' ></i></a>
+        <a href="mailto:athulthomas646@gmail.com"><i class='bx bxl-gmail' ></i></a>       
+      </div>
+      <a href="images/Athul - Resume.pdf" class="btn">Download Resume</a>
+      </div>
+
+      <div class="home-img">
+        <img src="images/Home.png" alt="">
+      </div>
+    </section>
+
+    <!-- about section design -->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/About.png" alt="">
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>A front-end developer with entry-level experience specializing in web development. Exceptionally creative and dependable Entry Level Web Developer with a stellar customer service record and superb work ethic. 
+          Broadly and deeply knowledgeable in a wide variety of computer languages as well as the principles and techniques of website construction and maintenance.</p>
+     
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+
+        <!----Skills----->
+
+        <div class="tab-contents actiive-tab" id="skills">
+          <div class="skills-container">
+            <div class="skills-details">
+              <h2>Coding</h2>
+              <div class="skill">
+                <p>Html</p>
+                <div class="progress-line" style="
+                            --bg: #0ef;
+                            --wd: 85%;
+                            --tx: '85%'">
+                    <span></span>
+                </div>
+              </div>
+              <div class="skill">
+                  <p>CSS</p>
+                  <div class="progress-line" style="
+                              --bg: #0ef;
+                              --wd: 72%;
+                              --tx: '72%'">
+                      <span></span>
+                  </div>
+              </div>
+              <div class="skill">
+                <p>JavaScript</p>
+                <div class="progress-line" style="
+                            --bg: #0ef;
+                            --wd: 50%;
+                            --tx: '50%'">
+                  <span></span>
+                </div>
+              </div>
+              <div class="skill">
+                <p>Python</p>
+                <div class="progress-line" style="
+                            --bg: #0ef;
+                            --wd: 45%;
+                            --tx: '45%'">
+                  <span></span>
+                </div>
+              </div>
+              <div class="skill">
+                <p>c</p>
+                <div class="progress-line" style="
+                            --bg: #0ef;
+                            --wd: 38%;
+                            --tx: '38%'">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills-details">
+              <h2>Professional </h2>
+              <div class="skill">
+                <p>Web Design</p>
+                <div class="progress-line" style="
+                            --bg: #0ef;
+                            --wd: 76%;
+                            --tx: '76%'">
+                    <span></span>
+                </div>
+              </div>
+              <div class="skill">
+                  <p>Python Django</p>
+                  <div class="progress-line" style="
+                              --bg: #0ef;
+                              --wd: 40%;
+                              --tx: '40%'">
+                      <span></span>
+                  </div>
+              </div>
+              <div class="skill">
+                <p>Tally ERP-9</p>
+                <div class="progress-line" style="
+                            --bg: #0ef;
+                            --wd: 65%;
+                            --tx: '65%'">
+                  <span></span>
+                </div>
+              </div>
+              <div class="skill">
+                <p>M.S office</p>
+                <div class="progress-line" style="
+                            --bg: #0ef;
+                            --wd: 80%;
+                            --tx: '80%'">
+                  <span></span>
+                </div>
+              </div>
+              <div class="skill">
+                <p>Photoshop</p>
+                <div class="progress-line" style="
+                            --bg: #0ef;
+                            --wd: 45%;
+                            --tx: '45%'">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-----Experience----->
+
+        <div class="tab-contents" id="experience">
+          <div class="details">
+            <h2><i class='bx bx-calendar'></i>&nbsp; &nbsp; Nov 2022 - Present</h2>
+            <p>&nbsp; &nbsp; Data Annotation at Roora ML Pvt.Ltd</p>
+          </div>
+          <div class="details">
+            <h2><i class='bx bx-calendar'></i>&nbsp; &nbsp; Feb 2020 - Present</h2>
+            <p>&nbsp; &nbsp; Accountant at St.Sebastian’s Church</p>
+          </div>
+          <div class="details">
+            <h2><i class='bx bx-calendar'></i>&nbsp; &nbsp; July 2022 - Oct 2022</h2>
+            <p>&nbsp; &nbsp; Accountant at Lunar Media</p>
+          </div>
+          <div class="details">
+            <h2><i class='bx bx-calendar'></i>&nbsp; &nbsp; Apr 2021 - Dec 2021</h2>
+            <p>&nbsp; &nbsp; Purchase Manger at Olivia Projects</p>
+          </div>
+        </div>
+
+        <!----Education----->
+
+        <div class="tab-contents" id="education">
+          <div class="details">
+            <h2><i class='bx bx-calendar'></i>&nbsp; &nbsp; 2023-Present</h2>
+            <p>&nbsp; &nbsp; Web Developer from Online Platforms</p>
+          </div>
+          <div class="details">
+            <h2><i class='bx bx-calendar'></i>&nbsp; &nbsp; 2022 Mar-May</h2>
+            <p>&nbsp; &nbsp; Python Web Developer from Luminar Technolab</p>
+          </div>
+          <div class="details">
+            <h2><i class='bx bx-calendar'></i>&nbsp; &nbsp; 2020 May-Nov</h2>
+            <p>&nbsp; &nbsp; PDCFA from NIC College</p>
+          </div>
+          <div class="details">
+            <h2><i class='bx bx-calendar'></i>&nbsp; &nbsp; 2017-2020</h2>
+            <p>&nbsp; &nbsp; Bachelor of Commerce from Yuvakshetra College</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- services section design -->
+
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class='bx bx-code-alt' ></i>
+          <h3>Web Development</h3>
+          <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience. User experience is central to the web designing process.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class='bx bxs-paint' ></i>
+          <h3>Data Annotation</h3>
+          <p>Data annotation is the process of labeling data with relevant tags to make it easier for computers to understand and interpret. This data can be in the form of images, text, audio, or video, and data annotators need to label it as accurately as possible.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class='bx bx-bar-chart-alt'></i>
+          <h3>Accountant</h3>
+          <p>An Accountant helps businesses make critical financial decisions by collecting, tracking, and correcting the company's finances. They are responsible for financial audits, and ensuring financial records are accurate throughout the year.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section design -->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-content" data-aos="zoom-in-up">
+        <div class="row">
+          <div class="row-img">
+            <img src="images/music player.png" alt="front image">
+            <img src="images/music player 2.png" alt="rear image" class="rear-img">
+          </div>
+          <div class="main-row">
+            <div class="row-text">
+              <h5><i class='bx bxl-html5' ></i>Html &nbsp; &nbsp;<i class='bx bxl-css3' ></i>CSS &nbsp; &nbsp;<i class='bx bxl-javascript' ></i>JavaScript</h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://athulthomas4.github.io/Project_11/"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+          <h4>Music Player</h4>
+        </div>
+
+        <div class="row">
+          <div class="row-img">
+            <img src="images/digital clock.jpg" alt="front image">
+            <img src="images/digital clock 2.jpg" alt="rear image" class="rear-img">
+          </div>
+          <div class="main-row">
+            <div class="row-text">
+              <h5><i class='bx bxl-html5' ></i>Html &nbsp; &nbsp;<i class='bx bxl-css3' ></i>CSS &nbsp; &nbsp;<i class='bx bxl-javascript' ></i>JavaScript</h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://athulthomas4.github.io/Project_13/"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+          <h4>Digital Clock</h4>
+        </div>
+
+        <div class="row">
+          <div class="row-img">
+            <img src="images/e-commerce.png" alt="front image">
+            <img src="images/e-commerce 2.png" alt="rear image" class="rear-img">
+          </div>
+          <div class="main-row">
+            <div class="row-text">
+              <h5><i class='bx bxl-html5' ></i>Html &nbsp; &nbsp;<i class='bx bxl-css3' ></i>CSS &nbsp; &nbsp;<i class='bx bxl-javascript' ></i>JavaScript</h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://athulthomas4.github.io/Project_10/"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+          <h4>E-Commerce Website</h4>
+        </div>
+
+        <div class="row">
+          <div class="row-img">
+            <img src="images/calculator 5.png" alt="front image">
+            <img src="images/calculator 6.png" alt="rear image" class="rear-img">
+          </div>
+          <div class="main-row">
+            <div class="row-text">
+              <h5><i class='bx bxl-html5' ></i>Html &nbsp; &nbsp;<i class='bx bxl-css3' ></i>CSS &nbsp; &nbsp;<i class='bx bxl-javascript' ></i>JavaScript</h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://athulthomas4.github.io/Project_12/"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+          <h4>Calculator</h4>
+        </div>
+
+        <div class="row">
+          <div class="row-img">
+            <img src="images/weather.png" alt="front image">
+            <img src="images/weather 2.png" alt="rear image" class="rear-img">
+          </div>
+          <div class="main-row">
+            <div class="row-text">
+              <h5><i class='bx bxl-html5' ></i>Html &nbsp; &nbsp;<i class='bx bxl-css3' ></i>CSS &nbsp; &nbsp;<i class='bx bxl-javascript' ></i>JavaScript</h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://athulthomas4.github.io/Project_9/"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+          <h4>Weather Check App</h4>
+        </div>
+
+        <div class="row">
+          <div class="row-img">
+            <img src="images/netflix.png" alt="front image">
+            <img src="images/netflix 2.png" alt="rear image" class="rear-img">
+          </div>
+          <div class="main-row">
+            <div class="row-text">
+              <h5><i class='bx bxl-html5' ></i>Html &nbsp; &nbsp;<i class='bx bxl-css3' ></i>CSS &nbsp; &nbsp;<i class='bx bxl-javascript' ></i>JavaScript</h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://athulthomas4.github.io/Project_4/"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+          <h4>Netflix Front Page</h4>
+        </div>
+
+        <div class="row">
+          <div class="row-img">
+            <img src="images/quiz.png" alt="front image">
+            <img src="images/quiz 2.png" alt="rear image" class="rear-img">
+          </div>
+          <div class="main-row">
+            <div class="row-text">
+              <h5><i class='bx bxl-html5' ></i>Html &nbsp; &nbsp;<i class='bx bxl-css3' ></i>CSS &nbsp; &nbsp;<i class='bx bxl-javascript' ></i>JavaScript</h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://athulthomas4.github.io/Project_8/"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+          <h4>Quiz App</h4>
+        </div>
+
+        <div class="row">
+          <div class="row-img">
+            <img src="images/portfolio 3.png" alt="front image">
+            <img src="images/portfolio 4.png" alt="rear image" class="rear-img">
+          </div>
+          <div class="main-row">
+            <div class="row-text">
+              <h5><i class='bx bxl-html5' ></i>Html &nbsp; &nbsp;<i class='bx bxl-css3' ></i>CSS &nbsp; &nbsp;<i class='bx bxl-javascript' ></i>JavaScript</h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://athulthomas4.github.io/Project_6/"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+          <h4>Personal Portfolio Website</h4>
+        </div>
+
+        <div class="row">
+          <div class="row-img">
+            <img src="images/youtube.png" alt="front image">
+            <img src="images/youtube 2.png" alt="rear image" class="rear-img">
+          </div>
+          <div class="main-row">
+            <div class="row-text">
+              <h5><i class='bx bxl-html5' ></i>Html &nbsp; &nbsp;<i class='bx bxl-css3' ></i>CSS &nbsp; &nbsp;<i class='bx bxl-javascript' ></i>JavaScript</h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://athulthomas4.github.io/Project_5/"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+          <h4>Youtube Front Page</h4>
+        </div>
+
+        <div class="row">
+          <div class="row-img">
+            <img src="images/calculator 3.png" alt="front image">
+            <img src="images/calculator 4.png" alt="rear image" class="rear-img">
+          </div>
+          <div class="main-row">
+            <div class="row-text">
+              <h5><i class='bx bxl-html5' ></i>Html &nbsp; &nbsp;<i class='bx bxl-css3' ></i>CSS &nbsp; &nbsp;<i class='bx bxl-javascript' ></i>JavaScript</h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://athulthomas4.github.io/Project_2/"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+          <h4>Calculator</h4>
+        </div>
+
+        <div class="row">
+          <div class="row-img">
+            <img src="images/facebook.png" alt="front image">
+            <img src="images/facebook 2.png" alt="rear image" class="rear-img">
+          </div>
+          <div class="main-row">
+            <div class="row-text">
+              <h5><i class='bx bxl-html5' ></i>Html &nbsp; &nbsp;<i class='bx bxl-css3' ></i>CSS &nbsp; &nbsp;<i class='bx bxl-javascript' ></i>JavaScript</h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://athulthomas4.github.io/Project_3/"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+          <h4>Facebook Front Page</h4>
+        </div>
+
+        <div class="row">
+          <div class="row-img">
+            <img src="images/calculator.jpg" alt="front image">
+            <img src="images/calculator 2.png" alt="rear image" class="rear-img">
+          </div>
+          <div class="main-row">
+            <div class="row-text">
+              <h5><i class='bx bxl-html5' ></i>Html &nbsp; &nbsp;<i class='bx bxl-css3' ></i>CSS &nbsp; &nbsp;<i class='bx bxl-javascript' ></i>JavaScript</h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://athulthomas4.github.io/Project_1/"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+          <h4>Calculator</h4>
+        </div>
+      </div>
+      <div id="load-more" class="btn">Show More</div>
+    </section>
+
+    <!-- contact section design -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form name="submit-to-google-sheet">
+        <div class="input-box">
+          <input type="text" name="Name" placeholder="Full Name"  required>
+          <input type="email" name="Email" placeholder="Email Address"  required>
+        </div>
+        <div class="input-box">
+          <input type="number" name="Mobile Number" placeholder="Mobile number">
+          <input type="text" name="Email Subject" placeholder="Email Subject" >
+        </div>
+        <textarea name="Message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <span id="msg"></span>
+    </section>
+
+    <!-- footer design -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Athul. | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-icon-top">
+        <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+      </div>
+    </footer>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbyDhodpP6wY99f1o63Rsoa06Io4PDTJ9V_vp9fdV1QsNRFQbD4hOPQs_an8Pc5IUXCPAw/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+              msg.innerHTML = "Message sent sucessfully"
+              setTimeout(function(){
+                  msg.innerHTML = ""
+              },5000)
+              form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+      
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1400,
+      });
+    </script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+
+    
+  </body>
+</html>
